@@ -1,4 +1,9 @@
-myTuple=(1,2,2,3,4,[2,8])
+urdu_to_english = {
+    "paani": "water",
+    "khana": "food",
+    "kitab": "book"
+}
 
-myTuple[5][1]=4
-print(myTuple)
+innput=input("Enter the word you want the translation of: ")
+
+print(urdu_to_english.get(innput))

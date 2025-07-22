@@ -1,16 +1,14 @@
-nmb=int(input("Enter the 1st number: "))
-nmb2=int(input("Enter the 2nd number: "))
-nmb3=int(input("Enter the 3rd number: "))
-nmb4=int(input("Enter the 4th number: "))
+nmb1=int(input("Enter the first number: "))
+nmb2=int(input("Enter the second number: "))
+nmb3=int(input("Enter the third number: "))
+nmb4=int(input("Enter the fourth number: "))
 
 
-if(nmb>nmb2 and nmb>nmb3 and nmb>nmb4):
-    print("Number 1 is greater.")
-elif(nmb2>nmb and nmb2>nmb3 and nmb2>nmb4):
-    print("Number 2 is greater.")
-elif(nmb3>nmb and nmb3>nmb2 and nmb3>nmb4):
-    print("Number 3 is greater.")
+if(nmb1>nmb2 and nmb1>nmb3 and nmb1>nmb4):
+    print(f"number {nmb1} is the greatest.")
+elif(nmb3>nmb2 and nmb3>nmb1 and nmb3>nmb4):
+    print(f"number {nmb3} is the greatest.")
+elif(nmb2>nmb1 and nmb2>nmb3 and nmb2>nmb4):
+    print(f"number {nmb2} is the greatest.")
 else:
-    print("Number 4 is greater.")
-
-
+    print(f"Number {nmb4} is the greatest.")
